@@ -13,7 +13,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), 'r') as readme_f
         author_email="jake.k.nielsen@gmail.com",
         license="MIT",
         classifiers=[
-            "License :: MIT License",
+            "License :: OSI Approved :: MIT License",
             "Programming Language :: Python :: 2.7",
         ],
         packages=["termtable"],
