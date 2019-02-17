@@ -4,7 +4,7 @@ from setuptools import setup
 with open(os.path.join(os.path.dirname(__file__), "README.md"), 'r') as readme_file:
     setup(
         name="termtable",
-        version="1.0.0",
+        version="1.0.1",
         description="Pretty text-based interactive terminal tables",
         long_description=readme_file.read(),
         long_description_content_type="text/markdown",
