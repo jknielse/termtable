@@ -335,7 +335,7 @@ class TerminalTable(object):
                                     new_selections.add(s + 1)
                                 else:
                                     new_selections.add(s)
-                            if self._cursor_index > index:
+                            if self._cursor_index >= index:
                                 self._cursor_index += 1
                             self._rows.insert(args[0], args[1])
                             self._selections = new_selections
